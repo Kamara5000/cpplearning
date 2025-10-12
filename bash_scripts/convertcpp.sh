@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#this bash script can be run on a linux machine to Ensuring cross-platform compatibility (especially cleaning up Windows line endings).
+#Automating compilation and testing of multiple C++ files.
+#Maintaining proper file permissions and ownership in shared or multi-user environments.
+#this wwas needed because my IDE is on window machine while i run the script on a linux machine on AWS and will need to convert from windows CRLF (Carriage Return + Line Feed) to linux LF (Line Feed) 
+
+
 USERNAME="ubuntu"
 
 echo "Cleaning and compiling all .cpp files in $(pwd)..."
